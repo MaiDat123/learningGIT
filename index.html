@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic GIT</title>
 </head>
+
 <body>
     <h1>GIT learning</h1>
     <h4>REMOTE REPO: https://github.com/MaiDat123/learningGIT.git</h4>
     <h4>LOCAL REPO: D:/2001215704_MaiDuongBaDat/Learn GIT/.git/</h4>
-    <pre>Basic command git
+    <pre>Basic command git:
+        ##command on the local repo:
         git init: create local repo in your computer:
         git add: move your file to Staging area before update or add new file in the repo
         *git add .: add all file ________________________________________________________
         git status: check status of your code/file while commit on repo
         git commit -m 'your note': commited your changes file to the local repo
+        git log: to see the changes from who, see what they just do in the code/file
+        Author: (config name)MaiDat123  (config email)<subinduyenkieutran1211@gmail.com>
+        Date:   Fri Jun 7 11:43:32 2024 +0700 (Time that they changes code/file)
+        upload firt file index.html (their note in the commit command git)
+
+        ##Command on the remote repo to synchronous with local repo
+        git remote add origin https://github.com/MaiDat123/learningGIT.git
+        git branch -M main
+        git push -u origin main
     </pre>
     <!-- 
         FILE ON LOCAL REPO              STAGING AREA            COMMITED        REMOTE REPO
     -->
-    
+
 </body>
+
 </html>
